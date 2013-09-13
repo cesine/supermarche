@@ -9,6 +9,7 @@
         android:targetSdkVersion="17" />
 
     <application
+        android:name="com.joellebechara.jeu.supermarche.JeuApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -16,8 +17,7 @@
         <activity
             android:name="com.joellebechara.jeu.supermarche.JeuActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
