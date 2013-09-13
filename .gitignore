@@ -1,3 +1,6 @@
+# ignore large files from the flash 
+flash_decompile
+
 .settings
 
 # built application files
